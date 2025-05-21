@@ -11,4 +11,4 @@ RUN apt-get update && \
 
 COPY . .
 
-CMD ["make", "run"]
+CMD ["python", "main.py"]
